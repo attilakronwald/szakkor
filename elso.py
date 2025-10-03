@@ -59,5 +59,5 @@ baconszama = 0
 for x in atalakitottlista:
     if x == 'bacon':
         baconszama += 1
-
+#jo
 print(f'Bacon ennyiszer szerepel a listaban: {baconszama}')
