@@ -1,4 +1,4 @@
-with open('forras.txt', "r", encoding='utf-8') as fajl:
+with open('forras2.txt', "r", encoding='utf-8') as fajl:
     szoveg = fajl.read()
 
 #A MEGOLDAS
@@ -48,7 +48,7 @@ for betu in tisztitott:
 print(f"Ennyi szoban szerepel az a betu: {len(abetu)}\n"
       f"A betu szerepel a szavakban: {abetu}")
 
-with open('huzzalan.txt', 'a', encoding='utf-8')as abetus:
+with open('dihdonyihuzzalan.txt', 'a', encoding='utf-8')as abetus:
     print(f"A betu van bennuk:{abetu}", file=abetus)
 
 tisztitott.count('török')
@@ -78,7 +78,7 @@ for x in tisztitott:
 
 print(f"Ennyiszer szerepel a török szo a listaban:{len(torokszo)}")
 
-with open('huzzaldidi.txt', 'a', encoding='utf-8') as zalus:   
+with open('dihdonydihhuzzaldilf.txt', 'a', encoding='utf-8') as zalus:   
     print(f"Ennyiszer van bcd a listaban: {len(bbetu + cbetu + dbetu)}")
     print(f"Ennyiszer van bcd a listaban: {len(bbetu + cbetu + dbetu)}", file=zalus)
     print(f"Ezek azok aszavak: {bbetu + cbetu + dbetu}", file=zalus)
