@@ -53,6 +53,11 @@ with open('huzzalan.txt', 'a', encoding='utf-8')as abetus:
 
 tisztitott.count('török')
 
+torokszam = 0
+for x in tisztitott:
+    if x == 'török':
+        torokszam += 1
+
 torokszo = []
 bbetu = []
 cbetu = []
