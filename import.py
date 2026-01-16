@@ -8,6 +8,7 @@ szoveg = szoveg.replace(".", "")
 #B MEGOLDAS
 elvalasztok = [',', '.', ';', '-', '\n', '[VISSZA]', '!', ':']
 
+#ugyanaz
 for jel in elvalasztok:
     szoveg = szoveg.replace(jel, " ")
 
@@ -15,6 +16,7 @@ for jel in elvalasztok:
 szoveg = szoveg.lower()
 # Szavak listaba tetele szokozok alapjan
 szavak = szoveg.split()
+
 
 
 
