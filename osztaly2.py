@@ -35,10 +35,10 @@ class ember:
         regi_foglalkozas = self.foglalkozas
         self.foglalkozas = ujfoglalkozas
 
-ember1 = ember("Lakatos Juan Miguel", 61, "Ózd", 210, 250, "közmunkás")
+ember1 = ember("Oláh Jupiter Ronaldo", 61, "Ózd", 210, 250, "közmunkás")
 ember1.bemutatkozas()
 ember1.szulinap()
-ember1.koltozik("Miskolc")
+ember1.koltozik("Azerbajdzsán")
 ember1.hizas()
 ember1.fogyas()
 ember1.ujmunka("Emberkereskedő")
