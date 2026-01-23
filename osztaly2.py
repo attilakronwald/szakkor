@@ -41,7 +41,7 @@ ember1.szulinap()
 ember1.koltozik("Miskolc")
 ember1.hizas()
 ember1.fogyas()
-ember1.ujmunka("Díler")
+ember1.ujmunka("Emberkereskedő")
 ember1.bemutatkozas()
 
 print(f"A BMI értéke: {ember1.bmi()}")
