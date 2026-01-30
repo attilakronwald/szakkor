@@ -71,7 +71,7 @@ for x in tisztitott:
         bbetu.append(x)
     elif x[0] == "c":
         cbetu.append(x)
-    elif x[0] == "d":
+    elif x[0] == "d":8o
         dbetu.append(x)
     elif x[0] == "b" and x[1] == "c" and x[2] == "d":
         bcdkezd.append(x)
