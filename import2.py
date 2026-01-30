@@ -1,4 +1,4 @@
-with open('forras2.txt', "r", encoding='utf-8') as fajl:
+with open('ujimport.txt', "r", encoding='utf-8') as fajl:
     szoveg = fajl.read()
 
 #A MEGOLDAS
@@ -51,11 +51,11 @@ print(f"Ennyi szoban szerepel az a betu: {len(abetu)}\n"
 with open('dihdonyihuzzalan.txt', 'a', encoding='utf-8')as abetus:
     print(f"A betu van bennuk:{abetu}", file=abetus)
 
-tisztitott.count('török')
+tisztitott.count('űrhajó')
 
 torokszam = 0
 for x in tisztitott:
-    if x == 'török':
+    if x == 'űrhajó':
         torokszam += 1
 
 torokszo = []
@@ -65,7 +65,7 @@ dbetu = []
 bcdkezd = []
 
 for x in tisztitott:
-    if 'török' == x:
+    if 'űrhajó' == x:
         torokszo.append(x)
     elif x[0] == "b":
         bbetu.append(x)
@@ -76,7 +76,7 @@ for x in tisztitott:
     elif x[0] == "b" and x[1] == "c" and x[2] == "d":
         bcdkezd.append(x)
 
-print(f"Ennyiszer szerepel a török szo a listaban:{len(torokszo)}")
+print(f"Ennyiszer szerepel a űrhajó szo a listaban:{len(torokszo)}")
 
 with open('dihdonydihhuzzaldilf.txt', 'a', encoding='utf-8') as zalus:   
     print(f"Ennyiszer van bcd a listaban: {len(bbetu + cbetu + dbetu)}")
